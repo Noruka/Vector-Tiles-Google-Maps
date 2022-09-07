@@ -1,4 +1,5 @@
 ﻿[Original Work by **Jesús Barrio**](https://github.com/techjb/Vector-Tiles-Google-Maps)
+[Npm fork from **Galih Rivanto**](https://github.com/galihrivanto/Vector-Tiles-Google-Maps)
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -39,6 +40,8 @@ The library provides funcionality to enable cache, filter features, apply styles
 
 Further work would be to load [Mapxbox GL Styles](https://docs.mapbox.com/mapbox-gl-js/style-spec/) in Google Maps.
 
+Compatible with gmap-vue
+
 ### Built With
 
 - [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview?)
@@ -50,17 +53,19 @@ Further work would be to load [Mapxbox GL Styles](https://docs.mapbox.com/mapbox
 
 ## Examples
 
-- [Basic](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/basic.html) - Basic loading vector tiles with debug enabled.
-- [Cache](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/cache.html) - Cache enabled.
-- [Click](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/click.html) - Click to select one or multiple features.
-- [Hover](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/hover.html) - On mouse hover event.
-- [Preselected features](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/preselected-features.html) - Set features as selected before loading.
-- [Filter](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/filter.html) - Filter features by it properties.
-- [Layers](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/layers.html) - Add remove vector tiles layers.
-- [Styles](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/styles.html) - Change style dynamically.
-- [Styles feature](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/styles-feature.html) - Style based on feature properties.
-- [Style filter and layer](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/style-filter-layer.html) - Update the style, filter and visible layers simultaneously.
-- [Point, linestring and polygon](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/point-linestring-polygon.html) - Show all type of geometries.
+* [Basic](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/basic.html) - Basic loading vector tiles with debug enabled.
+* [Cache](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/cache.html) - Cache enabled.
+* [Click](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/click.html) - Click to select one or multiple features.
+* [Hover](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/hover.html) - On mouse hover event.
+* [Preselected features](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/preselected-features.html) - Set features as selected before loading.
+* [Filter](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/filter.html) - Filter features by it properties.
+* [Layers](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/layers.html) - Add remove vector tiles layers.
+* [Styles](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/styles.html) - Change style dynamically.
+* [Styles feature](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/styles-feature.html) - Style based on feature properties.
+* [Style filter and layer](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/style-filter-layer.html) - Update the style, filter and visible layers simultaneously.
+* [Point, linestring and polygon](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/point-linestring-polygon.html) - Show all type of geometries.
+* [Custom draw](https://techjb.github.io/Vector-Tiles-Google-Maps/examples/custom-draw.html) - Custom draw function for each feature.
+
 
 <!-- INSTALATION -->
 
@@ -80,6 +85,16 @@ Further work would be to load [Mapxbox GL Styles](https://docs.mapbox.com/mapbox
      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"
      defer
    ></script>
+   ```
+
+
+<!-- NPM INSTALATION -->
+
+## NPM Installation
+
+1. Install NPM package
+   ```sh
+   npm install noruka-google-vector-tiles
    ```
 
 <!-- USAGE EXAMPLES -->
